@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,9 +11,557 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/style.min.css">
 </head>
 <body>
-  <div>
-    <p>1qqq</p>
-    <p>1qqq</p>
+
+<header class="header">
+  <div class="header-container">
+
+    <button class="header-menu-btn header_menu_btn">
+      <img src="../assets/img/icons/menu.svg" alt="menu">
+    </button>
+
+    <a href='#' class="header-logo" data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+      <img src="../assets/img/svg/inst_dark_logo.svg" alt="logotype">
+    </a>
+
+    <ul class="header-nav">
+      <li  data-aos="fade-up" data-aos-delay="150" data-aos-anchor-placement="top-bottom"><a
+          href=".hero-container" >Главная</a></li>
+      <li  data-aos="fade-up" data-aos-delay="200" data-aos-anchor-placement="top-bottom"><a
+          href=".likes-container" >Возможности</a></li>
+      <li  data-aos="fade-up" data-aos-delay="250" data-aos-anchor-placement="top-bottom"><a
+          href="#features" >Пакеты услуг </a></li>
+      <li  data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-bottom"><a
+          href=".prices-container" >Новости</a></li>
+    </ul>
+
+    <a href="#" class="header-login" data-aos="fade-up" data-aos-delay="400"
+       data-aos-anchor-placement="top-bottom">
+      <span>Вход</span>
+      <img src="../assets/img/icons/log-in.svg" alt="">
+    </a>
+
+    <div class="lang-container hidden-xs">
+      <p class="lang">
+        <img src="../assets/img/svg/rus.svg" alt="lang">
+      </p>
+      <ul class="select">
+        <li class="menu-item "><a title="rus" href="#">
+          <img src="../assets/img/svg/rus.svg" alt="lang">
+        </a></li>
+        <li class="menu-item "><a title="eng" href="#">
+          <img src="../assets/img/svg/usa.svg" alt="lang">
+        </a></li>
+      </ul>
+    </div>
+
   </div>
+</header>
+
+<div class="header-menu-open">
+  <header class="header">
+    <div class="header-container">
+      <button class="header-menu-btn header_menu_btn">
+        <img src="../assets/img/icons/close.svg" alt="close">
+      </button>
+      <a href='#' class="header-logo" data-aos="fade-up" data-aos-delay="100" data-aos-anchor-placement="top-bottom">
+        <img src="../assets/img/svg/inst_dark_logo.svg" alt="logotype">
+      </a>
+
+      <div class="lang-container">
+        <p class="lang">
+          <img src="../assets/img/svg/rus.svg" alt="lang">
+        </p>
+        <ul class="select">
+          <li class="menu-item "><a title="rus" href="#">
+            <img src="../assets/img/svg/rus.svg" alt="lang">
+          </a></li>
+          <li class="menu-item "><a title="eng" href="#">
+            <img src="../assets/img/svg/usa.svg" alt="lang">
+          </a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </header>
+  <div class="header-menu-open-container">
+    <ul class="nav-open">
+      <li><a href="#hero" class="nav__a">Главная</a></li>
+      <li><a href="#likes" class="nav__a ">Возможности</a></li>
+      <li><a href="#features" class="nav__a ">Пакеты услуг</a></li>
+      <li><a href="#prices" class="nav__a ">Новости</a></li>
+      <li><a href="#" class="nav__a ">Скачать приложение</a></li>
+    </ul>
+    <button class="header-menu-open-btn header-menu-open-sign-in">Войти</button>
+    <button class="header-menu-open-btn header-menu-open-create-acc">Создать аккаунт</button>
+  </div>
+
+</div>
+
+<main class="main">
+
+  <!--Hero -->
+
+  <div class="main-first">
+    <div class="container">
+      <div class="main-first-img-wrap">
+        <img src="../assets/img/iphone.png" alt="iphone">
+        <div class="main-first-comments">
+          <p class="main-first-comments-sum">238</p>
+          <p class="main-first-comments-text">Comments</p>
+          <div class="main-first-comments-plus">+76</div>
+        </div>
+
+        <div class="main-first-buyers">
+          <p class="main-first-buyers-sum">17</p>
+          <p class="main-first-buyers-text">Personally invited  buyers</p>
+          <div class="main-first-buyers-plus">
+            <img src="../assets/img/svg/buyers.svg" alt="buyers">
+          </div>
+        </div>
+
+      </div>
+      <div class="main-first__content">
+        <h1 class="main-first__content-title">
+          Сервис для эффективного продвижения и монетизации вашего Instagram аккаунта
+        </h1>
+        <a href="/login#sign-up" class="button main-first__button">
+          <b>Бесплатная Регистрация</b>
+          <span class="btn__icon">
+                    <img src="../assets/img/top-btn-icon.svg">
+                </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--Advantages -->
+
+  <div class="main-advantages">
+    <div class="container">
+      <div class="main-advantages__single">
+        <div class="main-advantages__single-img-wrap">
+          <img class="main-advantages__single-img" src="./img/users.svg" alt="users">
+        </div>
+        <p class="advantages__single-text">Более 100 000 активных пользователей платформы</p>
+      </div>
+      <div class="main-advantages__single">
+        <div class="main-advantages__single-img-wrap main-advantages__single-img-wrap_2">
+          <img class="main-advantages__single-img" src="./img/globe.svg" alt="globe">
+        </div>
+        <p class="advantages__single-text">Благодаря мультиязычности, у нас клиенты из 161 страны</p>
+      </div>
+      <div class="main-advantages__single">
+        <div class="main-advantages__single-img-wrap main-advantages__single-img-wrap_3">
+          <img class="main-advantages__single-img" src="./img/briefcase.svg" alt="briefcase">
+        </div>
+        <p class="advantages__single-text">Наши пользователи уже заработали более $1 000 000</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+
+  <div class="main-about">
+    <div class="container">
+      <div class="main-about__description">
+        <p class="main-about__description-title">Имя Фамилия</p>
+        <p class="main-about__description-type">пользователь сервиса</p>
+        <p class="main-about__description-context">
+          Здесь только реальные пользователи, которые регулярно посещают соцсеть. Благодаря сообществу
+          подписчиков платформы, Ваш аккаунт легко выйдет в ТОП-Instagram.
+        </p>
+        <img class="main-about__description-signature" src="./img/signature.svg" img="signature">
+      </div>
+      <div class="main-about__video">
+        <div class="main-about__video-bg">
+                        <span class="main-about__video-play">
+                            <img src="./img/play_video.svg" alt="play_video">
+                        </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interesting -->
+
+  <div class="main-interesting">
+    <div class="container">
+      <div class="main-interesting__img-wrap">
+        <img src="./img/interesting.svg" alt="interesting">
+      </div>
+      <div class="main-interesting__content">
+        <h6 class="main-interesting__title">Кому подойдет сервис?</h6>
+        <div class="main-interesting__description">
+          Каждому, кто ежедневно использует Instagram для личных или коммерческих целей и
+          желает увеличить активность аккаунта.
+        </div>
+        <div class="main-interesting__card-wrap">
+          <div class="main-interesting__card">
+            <img class="main-interesting__card-img" src="./img/prsonal.svg" alt="instime, inst me">
+            <div class="main-interesting__card-title">Личные аккаунты</div>
+          </div>
+          <div class="main-interesting__card">
+            <img class="main-interesting__card-img" src="./img/business.svg" alt="business">
+            <div class="main-interesting__card-title">Бизнес-аккаунты</div>
+          </div>
+          <div class="main-interesting__card">
+            <img class="main-interesting__card-img" src="./img/blogger.svg" alt="blogger">
+            <div class="main-interesting__card-title">Блоггеры</div>
+          </div>
+          <div class="main-interesting__card">
+            <img class="main-interesting__card-img" src="./img/smm.svg" alt="smm">
+            <div class="main-interesting__card-title">SMM-менеджеры</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Registration -->
+
+  <div class="main-registration">
+    <div class="container">
+      <div class="main-registration__description">
+        <h6 class="main-registration__title">Простая <br> регистрация</h6>
+        <div class="main-registration__content">
+          Чтобы стать частью нашего закрытого сообщества, Вам нужно только подключить
+          свой Instagram-аккаунт и указать реферальный код пользователя, который уже
+          зарегистрирован в системе.
+        </div>
+        <button type="button" class="btn btn_small">Попробовать Бесплатно</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ways earning-->
+
+  <div class="main-ways-earning">
+    <div class="container">
+      <div class="main-ways-earning__title">
+        Способы заработка на продуктах Instagram & Instime
+      </div>
+      <div class="main-ways-earning__card-wrap">
+        <div class="main-ways-earning__card">
+          <div class="main-ways-earning__card-img">
+            <img src="./img/radio.svg" alt="radio">
+          </div>
+          <p class="main-ways-earning__card-title">
+            Продажа своих рекламных публикаций
+          </p>
+          <div class="main-ways-earning__card-description">
+            Находите тематические бренды и продавайте им рекламу в своей ленте.
+          </div>
+        </div>
+        <div class="main-ways-earning__card">
+          <div class="main-ways-earning__card-img main-ways-earning__card-img_1">
+            <img src="./img/shopping-bag.svg" alt="shopping-bag">
+          </div>
+          <p class="main-ways-earning__card-title">
+            Продажа своих товаров или услуг
+          </p>
+          <div class="main-ways-earning__card-description">
+            Продвигайте свой бизнес на одной из самых эффективных торговых площадок
+          </div>
+        </div>
+        <div class="main-ways-earning__card">
+          <div class="main-ways-earning__card-img main-ways-earning__card-img_2">
+            <img src="./img/team.svg" alt="team">
+          </div>
+          <p class="main-ways-earning__card-title">
+            Монетизация своей реферальной структуры
+          </p>
+          <div class="main-ways-earning__card-description">
+            Получайте вознаграждения, приглашая в платформу других пользователей.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our packages -->
+
+  <div class="our-packages">
+    <div class="container">
+      <h2 class="h2 our-packages__headline">
+        Наши пакеты услуг
+      </h2>
+      <div class="our-packages__wrap">
+        <div class="our-packages__item is-standart">
+          <li id="finance-package-standart" class="profile-finance_unpaid-item">
+            <div class="profile-finance_unpaid-item__top">
+              <h3 class="profile-finance_unpaid-item__headline">
+                STANDART
+              </h3>
+              <ul class="profile-finance_unpaid-item__list">
+                <li class="profile-finance_unpaid-item__item">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.3337 4L6.00033 11.3333L2.66699 8" stroke="#9F24BE" stroke-width="3"
+                          stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  Subscribe to<span>15 people</span>
+                </li>
+                <li class="profile-finance_unpaid-item__item">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.3337 4L6.00033 11.3333L2.66699 8" stroke="#9F24BE" stroke-width="3"
+                          stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  Perform<span>30 tasks</span>per day
+                </li>
+              </ul>
+              <div class="profile-finance_unpaid-item-services">
+                <div class="profile-finance_unpaid-item-services__item">
+                  <div class="profile-finance_unpaid-item-services__icon">
+                    <img src="/images/profile/finance/eye.svg" alt="Instime">
+                  </div>
+                  <div class="profile-finance_unpaid-item-services__wrap">
+                    <div class="profile-finance_unpaid-item-services__headline" id="views-standart">
+                      10000
+                    </div>
+                    <div class="profile-finance_unpaid-item-services__description">
+                      Views
+                    </div>
+                  </div>
+                </div>
+                <div class="profile-finance_unpaid-item-services__item">
+                  <div class="profile-finance_unpaid-item-services__icon">
+                    <img src="/images/profile/finance/comments.svg" alt="Instime">
+                  </div>
+                  <div class="profile-finance_unpaid-item-services__wrap">
+                    <div class="profile-finance_unpaid-item-services__headline"
+                         id="comments-standart">80
+                    </div>
+                    <div class="profile-finance_unpaid-item-services__description">
+                      Comments
+                    </div>
+                  </div>
+                </div>
+                <div class="profile-finance_unpaid-item-services__item">
+                  <div class="profile-finance_unpaid-item-services__icon">
+                    <img src="/images/profile/finance/like.svg" alt="Instime">
+                  </div>
+                  <div class="profile-finance_unpaid-item-services__wrap">
+                    <div class="profile-finance_unpaid-item-services__headline" id="likes-standart">
+                      3000
+                    </div>
+                    <div class="profile-finance_unpaid-item-services__description">
+                      Likes
+                    </div>
+                  </div>
+                </div>
+                <div class="profile-finance_unpaid-item-services__item">
+                  <div class="profile-finance_unpaid-item-services__icon">
+                    <img src="/images/profile/finance/saved.svg" alt="Instime">
+                  </div>
+                  <div class="profile-finance_unpaid-item-services__wrap">
+                    <div class="profile-finance_unpaid-item-services__headline" id="saves-standart">
+                      1000
+                    </div>
+                    <div class="profile-finance_unpaid-item-services__description">
+                      Saves
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-finance_unpaid-item__bottom">
+              <div class="profile-finance_unpaid-item-months">
+                <div class="profile-finance_unpaid-item-months__item is-active"
+                     id="block-profile-finance_unpaid-item" data-month="0" data-package="standart">
+                  <h5 class="profile-finance_unpaid-item-months__headline">
+                    7
+                  </h5>
+                  <p class="profile-finance_unpaid-item-months__description">
+                    Days
+                  </p>
+                </div>
+                <div class="profile-finance_unpaid-item-months__item" data-month="1"
+                     data-package="standart">
+                  <h5 class="profile-finance_unpaid-item-months__headline">
+                    1
+                  </h5>
+                  <p class="profile-finance_unpaid-item-months__description">
+                    Months
+                  </p>
+                </div>
+                <div class="profile-finance_unpaid-item-months__item" data-month="2"
+                     data-package="standart">
+                  <h5 class="profile-finance_unpaid-item-months__headline">
+                    3
+                  </h5>
+                  <p class="profile-finance_unpaid-item-months__description">
+                    Months
+                  </p>
+                </div>
+              </div>
+              <span class="profile-finance_unpaid-item-price">
+                                $ <span id="price-standart">15</span>
+                            </span>
+              <button class="button button_violet profile-finance_unpaid__button">Buy</button>
+            </div>
+          </li>
+        </div>
+        <div class="our-packages__item is-masslooking">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Service tools -->
+  <div class="container">
+    <div class="service-tools">
+      <h5 class="service-tools__title">
+        Все <br>  инструменты  <br> сервиса
+      </h5>
+      <div class="service-tools__cards-wrap">
+
+        <div class="service-tools__cards-item">
+          <div class="service-tools__card">
+            <div  class="service-tools__card-img-wrap">
+              <img src="./img/service-tools/interchange.svg" alt="interchange">
+            </div>
+            <div class="service-tools__card-title">
+              Взаимообмен
+            </div>
+            <div class="service-tools__card-description">
+              Повышайте активность своей страницы, оставляя и получая лайки, комментарии, сохранения
+            </div>
+          </div>
+        </div>
+
+        <div class="service-tools__cards-item">
+          <div class="service-tools__card">
+            <div  class="service-tools__card-img-wrap">
+              <img src="./img/service-tools/masslooking.svg" alt="masslooking">
+            </div>
+            <div class="service-tools__card-title">
+              Masslooking
+            </div>
+            <div class="service-tools__card-description">
+              Приумножьте охват ваших публикаций, настроив массовый просмотр Stories                        </div>
+          </div>
+          <div class="service-tools__card">
+            <div  class="service-tools__card-img-wrap">
+              <img src="./img/service-tools/mutual-exchange.svg" alt="mutual-exchange">
+            </div>
+            <div class="service-tools__card-title">
+              Биржа взаимопиара
+            </div>
+            <div class="service-tools__card-description">
+              Бесплатно обменивайтесь аудиторией со схожими по интересам аккаунтами                        </div>
+          </div>
+        </div>
+
+        <div class="service-tools__cards-item">
+          <div class="service-tools__card">
+            <div  class="service-tools__card-img-wrap">
+              <img src="./img/service-tools/to-top.svg" alt="to-top">
+            </div>
+            <div class="service-tools__card-title">
+              Выход в ТОП
+            </div>
+            <div class="service-tools__card-description">
+              Используйте максимально эффективное органическое продвижение вашего аккаунта                        </div>
+          </div>
+          <div class="service-tools__card">
+            <div  class="service-tools__card-img-wrap">
+              <img src="./img/service-tools/exchange-buying-advertising.svg" alt="exchange-buying-advertising">
+            </div>
+            <div class="service-tools__card-title">
+              Биржа покупки рекламы
+            </div>
+            <div class="service-tools__card-description">
+              Заказывайте рекламу у более популярных блоггеров или продавайте свою                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-container__about">
+          <a class="footer-container__logo" href="">
+            <img src="./img/inst_dark_logo.svg" alt="logo">
+          </a>
+          <div class="footer-container__social">
+            <a href="">
+              <img src="./img/social/facebook.svg" alt="facebook">
+            </a>
+            <a href="">
+              <img src="./img/social/twitter.svg" alt="twitter">
+            </a>
+            <a href="">
+              <img src="./img/social/instagram.svg" alt="instagram">
+            </a>
+            <a href="">
+              <img src="./img/social/youtube.svg" alt="youtube">
+            </a>
+          </div>
+          <div class="footer-container__corporation">
+            © 2018 - INSTIME. All
+            <br/>
+            rights reserved.
+          </div>
+        </div>
+        <nav class="footer-nav">
+          <h6 class="footer-nav__title">
+            Get info
+          </h6>
+          <ul class="footer-nav__list">
+            <li>
+              <a href="">Help & Support</a>
+            </li>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+            <li>
+              <a href="">Privacy policy</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <h6 class="footer-nav__title">
+            Company
+          </h6>
+          <ul class="footer-nav__list">
+            <li>
+              <a href="">About us</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Customers</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <h6 class="footer-nav__title">
+            Try INSTIME right now!
+          </h6>
+          <ul class="footer-nav__list">
+            <li>
+              <a href="">iOS app store</a>
+            </li>
+            <li>
+              <a href="">Android google play</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</main>
+<script src="../assets/js/libs.min.js"></script>
+<script src="../assets/js/main.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,663 @@
+/*  min */
+
+@media only screen and (min-width : 992px) {
+
+  .features-card:nth-child(-n+4) {
+    border-bottom: none;
+  }
+
+  .features-card:nth-child(-n+3) {
+    border-right: none;
+  }
+
+  .features-card:nth-child(n+5):nth-child(-n+7) {
+    border-right: none;
+  }
+
+  .interface-card:nth-child(-n+3) {
+    border-right: none;
+  }
+
+}
+
+
+
+/*  max */
+
+@media only screen and (max-width : 1400px) {}
+
+@media only screen and (max-width : 1200px) {
+  .hero-container {
+    padding: 163px 15px 10px 0;
+  }
+
+  .hero-iphone__img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .hero-square-3 {
+    top: 79px;
+    left: 407px;
+  }
+
+  .hero-content {
+    margin-left: -25px;
+  }
+
+  /**/
+  .likes-container {
+    width: 100%;
+    padding: 50px 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .likes-content {
+    width: 100%;
+    margin-left: 0;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  .likes-amount {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 641px;
+  }
+
+  .likes-amount::before {
+    top: 132px;
+    left: 50%;
+    transform: translateX(-50%)matrix(0.71, -0.7, 0.71, 0.71, 0, 0);
+  }
+
+  .likes-amount-container {
+    position: static;
+    z-index: 1;
+  }
+
+  .likes-amount-block {
+    margin: 0;
+    top: 50%;
+    transform: translatey(-50%);
+  }
+
+  /**/
+
+  .video-right {
+    width: 40%;
+  }
+
+  .video-container {
+    padding: 50px 30px;
+    margin-bottom: 0;
+  }
+
+  .video-left {
+    height: 440px;
+    padding: 0 0 0 30px;
+  }
+
+  /**/
+  .features-container {
+    padding: 50px 30px 100px;
+  }
+
+  .features::before {
+    bottom: -9vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55vw;
+    height: 18.5vw;
+    background: url("../img/iphone_x_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .features__topic {
+    margin-bottom: 30px;
+  }
+
+  /**/
+  .interface-container {
+    padding: 50px 30px 50px;
+  }
+
+  .interface__topic {
+    margin-bottom: 30px;
+  }
+
+  /**/
+  .prices-container {
+    padding: 50px 30px 50px;
+  }
+
+  /**/
+  .footer-container {
+    padding: 50px 30px 25px;
+  }
+
+  .footer-subscribe {
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-subscribe-left {
+    padding: 0;
+    margin: 0 auto 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-subscribe-right {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+
+
+  /**/
+  .hero-container {
+    padding: 113px 30px 0;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .hero-iphone {
+    margin: auto;
+  }
+
+  .hero-content {
+    margin: 70px 0 0;
+    align-items: center;
+  }
+
+  .hero-topic,
+  .hero-description {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  /**/
+  .video-container {
+    padding: 50px 30px;
+    margin-bottom: 0;
+  }
+
+  .video-left {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .video__topic,
+  .video__description,
+  .video-commission {
+    margin-bottom: 15px;
+  }
+
+  .video-commission__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .video-commission__number {
+    width: 55px;
+    margin-right: 0;
+  }
+
+  .video-commission__description {
+    line-height: 1.3;
+  }
+
+  .video-right {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .video-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /**/
+  .features-card {
+    width: 50%;
+    border-bottom: 0;
+  }
+
+  .features-card:nth-child(odd) {
+    border-right: 0;
+  }
+
+  .features-card:nth-child(7),
+  .features-card:nth-child(8) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /**/
+  .interface-card {
+    width: 50%;
+    border-bottom: 0;
+  }
+
+  .interface-card:nth-child(odd) {
+    border-right: 0;
+  }
+
+  .interface-card:nth-child(3),
+  .interface-card:nth-child(4) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+
+  .chart__container {
+    padding: 180px 30px 0 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart__left {
+    margin: 0 auto 50px auto;
+  }
+
+  .chart-text {
+    width: 100%;
+  }
+
+  .subscribe__container {
+    flex-direction: column;
+    padding: 100px 30px;
+  }
+
+  .subscribe-goals {
+    margin-bottom: 50px;
+  }
+
+  .subscribe-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+
+  .dowmload-button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(270deg, #E73563 -10.91%, #8B31C4 100%);
+    transition: .3s ease;
+  }
+
+  /**/
+  .modal_wrapp iframe {
+    width: 100%;
+  }
+
+  .modal_div {
+    width: 92%;
+  }
+
+  /**/
+  .hero-container {
+    padding: 33px 30px 0;
+  }
+
+  /**/
+
+  .prices-cards-container {
+    margin: 40px 0 84px;
+  }
+
+  .prices-card {
+    width: 116px;
+    padding: 0;
+    border: none;
+  }
+
+  .prices-card-block {
+    padding-left: 27px;
+  }
+
+  .prices-card-time_2 {
+    margin-bottom: 0;
+  }
+
+  .prices-card-time-container {
+    margin-bottom: 28px;
+  }
+
+  .prices-card-time-container_active {
+    background: #FFFFFF;
+    box-shadow: -4px 4px 20px rgba(133, 144, 152, 0.2);
+    border-radius: 5px;
+    transition: .3s ease;
+  }
+
+  .prices-card-viewers::before,
+  .prices-card-likes::before,
+  .prices-card-comments::before,
+  .prices-card-posts::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 17px;
+    height: 15px;
+  }
+
+  .prices-card:nth-child(2)::before {
+    display: none;
+  }
+
+  .prices-card:nth-child(2) {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .prices-card-button {
+    position: absolute;
+    width: 90%;
+    height: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  /**/
+  .footer-ul {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  .footer-ul:nth-child(1) {
+    order: 4;
+  }
+
+  .subscribe__bg {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .chart__left-container {
+    width: 100%;
+  }
+
+  /**/
+
+}
+
+@media only screen and (max-width : 556px) {
+
+  /**/
+  .hero-iphone {
+    width: 100%;
+  }
+
+  .hero-iphone__img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .hero-circle,
+  .hero-square {
+    display: none;
+  }
+
+  .hero-topic {
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: left;
+    width: calc(100% - 70px);
+    margin-right: auto;
+  }
+
+  .hero-description {
+    margin-bottom: 30px;
+    text-align: left;
+    width: calc(100% - 70px);
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-md {
+    width: 100%;
+    margin: auto;
+  }
+
+  .hero-app_store {
+    margin: 0 auto 15px 0;
+  }
+
+  .hero-google-play {
+    margin: 0 auto 0 0;
+  }
+
+  /**/
+  .likes-amount {
+    height: auto;
+  }
+
+  .likes-amount-container {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%)matrix(0.71, -0.7, 0.71, 0.71, 0, 0);
+    width: 250px;
+    height: 250px;
+  }
+
+  .likes-amount::before {
+    display: none;
+  }
+
+  .likes-amount-block {
+    position: static;
+    top: 0;
+    transform: none;
+  }
+
+  /**/
+  .features-card,
+  .features-card:nth-child(7) {
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .features-card:nth-child(8) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .features-card:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /**/
+  .interface-card,
+  .interface-card:nth-child(3) {
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .interface-card:nth-child(4) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .interface-card:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /**/
+  .footer-subscribe-button {
+    min-width: 120px;
+  }
+
+  .footer-menu {
+    margin-bottom: 0;
+  }
+
+  .footer-ul:nth-child(1) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-ul:nth-child(3) {
+    padding-left: 15px;
+  }
+
+  .footer-ul:nth-child(4) {
+    width: 100%;
+  }
+
+  .hero-iphone__iphone {
+    right: -340px;
+    left: auto;
+  }
+
+  .hero-content {
+    margin-top: -330px;
+  }
+
+  .features::before {
+    bottom: -15vw;
+    width: 90vw;
+    height: 30vw;
+    background: url("../img/iphone_x_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /**/
+  .chart__left {
+    width: 365px;
+  }
+
+  .chart__container {
+    padding: 135px 30px 0 30px;
+  }
+
+  .chart__bg {
+    top: 50px;
+  }
+
+  /**/
+  .footer-li_link {
+    margin: 35px 10px 35px 10px;
+  }
+
+  /**/
+
+  .subscribe-goals__description {
+    width: 70%;
+  }
+
+  /**/
+
+}
+
+@media only screen and (max-width : 400px) {
+  .chart__left {
+    transform: scale(0.86);
+    -ms-transform: scale (0.86);
+    -webkit-transform: scale(0.86);
+    -moz-transform: scale(0.86);
+    -o-transform: scale(0.86);
+    transform-origin: left center;
+  }
+
+
+}
+
+@media only screen and (max-width : 370px) {
+  .chart__left {
+    transform: scale(0.71);
+    -ms-transform: scale (0.71);
+    -webkit-transform: scale(0.71);
+    -moz-transform: scale(0.71);
+    -o-transform: scale(0.71);
+  }
+
+  /**/
+  .subscribe-goals-container {
+    width: calc(100vw - 30px);
+    display: flex;
+  }
+
+  /**/
+  .hero-topic {
+    width: calc(100% - 50px);
+  }
+
+  .hero-description {
+    width: calc(100% - 50px);
+  }
+
+  .hero-iphone__iphone {
+    right: -360px;
+  }
+
+  /**/
+  .subscribe__container {
+    padding: 60px 30px;
+  }
+
+  /**/
+
+  .prices-card {
+    width: 100px;
+  }
+
+  .prices-card-block {
+    padding-left: 20px;
+  }
+
+  .prices-card-viewers::before,
+  .prices-card-likes::before,
+  .prices-card-comments::before,
+  .prices-card-posts::before {
+    left: 0;
+  }
+
+
+
+  /**/
+  .footer-subscribe-button {
+    min-width: 105px;
+  }
+
+  .footer-subscribe-input {
+    padding: 0 118px 0 10px;
+  }
+
+
+  /**/
+
+
+}

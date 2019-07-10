@@ -8,6 +8,12 @@
 @import "./base/vars";
 @import "./base/header";
 @import "./base/footer";
+@import "./base/global";
+
+// Common
+@import "./common/old-main";
+@import "./common/old-media";
+@import "./common/content-parts";
 
 // Custom
 @import "./pages/home";
